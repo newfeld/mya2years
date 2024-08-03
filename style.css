@@ -4,11 +4,12 @@ body {
 }
 
 .title{
-    font-size: 50px;
+    font-size: 4vw;
     display: flex;
     flex-shrink: 1;
     padding: 15px;
     align-items: center;
+    /* border: 1px solid black; */
 }
 
 .header {
@@ -25,4 +26,13 @@ body {
     width: 250px;
     height: 250px;
     box-sizing: border-box;
+}
+
+.letter {
+    font-family: fantasy;
+    font-size: 22px;
+    margin: 20px 200px 0px 200px;
+    padding: 5px;
+    background-color: aliceblue;
+    box-shadow: -1px 1px 5px 9px rgba(103, 103, 103, 0.75);  
 }
