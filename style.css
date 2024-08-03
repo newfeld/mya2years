@@ -1,0 +1,28 @@
+body {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: bisque;
+}
+
+.title{
+    font-size: 50px;
+    display: flex;
+    flex-shrink: 1;
+    padding: 15px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.image {
+    display: flex;
+    /* padding: px; */
+    border: 8px solid pink;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+}
